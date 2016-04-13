@@ -93,11 +93,4 @@
       <fileMode>0644</fileMode>
     </fileSet>
   </fileSets>
-  <dependencySets>
-    <dependencySet>
-      <excludes>
-        <exclude>slf4j-api</exclude>
-      </excludes>
-    </dependencySet>
-  </dependencySets>
 </assembly>
