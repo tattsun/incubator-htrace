@@ -1,2 +1,2 @@
 install:
-  mvn clean package install -DskipTests -Dmaven.javadoc.skip=true -Drat.skip=true
+	mvn clean package install assembly:single -DskipTests -Dmaven.javadoc.skip=true -Drat.skip=true
